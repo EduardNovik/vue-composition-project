@@ -61,4 +61,6 @@ const truncatedDescription = computed(() => {
   </div>
 </template>
 
-<style></style>
+<!-- 
+Two-way interaction: You're updating showFullDescription in the template using a button (@click="toggleFullDescription"). Vue's reactivity system works by tracking changes to reactive variables (ref or reactive), so any changes to showFullDescription will re-render the dependent parts of the template -->
+<!-- In short, ref ensures that when showFullDescription changes (through clicking the button), Vue re-renders the correct parts of the template. -->

@@ -1,3 +1,16 @@
+<script setup>
+defineProps({
+  title: {
+    type: String,
+    default: "Become a Vue Dev",
+  },
+  subtitle: {
+    type: String,
+    default: "Find the Vue job that fits your skills and needs",
+  },
+});
+</script>
+
 <template>
   <section class="bg-green-900 py-20 mb-4">
     <div
@@ -14,18 +27,3 @@
     </div>
   </section>
 </template>
-
-<script setup>
-defineProps({
-  title: {
-    type: String,
-    default: "Become a Vue Dev",
-  },
-  subtitle: {
-    type: String,
-    default: "Find the Vue job that fits your skills and needs",
-  },
-});
-</script>
-
-<style></style>

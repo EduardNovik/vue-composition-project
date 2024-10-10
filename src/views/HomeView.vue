@@ -11,4 +11,6 @@ import JobListings from "@/components/JobListings.vue";
   <JobListings :limit="3" :showButton="true" />
 </template>
 
-<style></style>
+<!-- <JobListings :limit="3" :showButton="true" /> -->
+<!-- Use : when you want to pass non-string values, such as numbers, booleans, arrays, objects, or expressions.
+No : needed for plain string values. -->

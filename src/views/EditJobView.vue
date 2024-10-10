@@ -58,7 +58,6 @@ onMounted(async () => {
   try {
     const response = await axios.get(`/api/jobs/${jobId}`);
     state.job = response.data;
-    console.log(state.job);
 
     // Populate form
     form.type = state.job.type;

@@ -21,7 +21,6 @@ const form = reactive({
 const toast = useToast();
 
 const handleSubmit = async () => {
-  console.log(form.title);
   const newJob = {
     title: form.title,
     description: form.description,
