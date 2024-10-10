@@ -1,14 +1,10 @@
 <script setup>
-import Navbar from "@/components/Navbar.vue";
-import { RouterView } from "vue-router";
+import JobListings from "@/components/JobListings.vue";
 </script>
-
 <template>
-  <Navbar />
-  <RouterView />
+  <JobListings />
 </template>
 
-<style scoped></style>
-
+<!-- <JobListings :limit="3" :showButton="true" /> -->
 <!-- Use : when you want to pass non-string values, such as numbers, booleans, arrays, objects, or expressions.
 No : needed for plain string values. -->
