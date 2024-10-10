@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-green-700 py-20 mb-4">
+  <section class="bg-green-900 py-20 mb-4">
     <div
       class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
     >
@@ -16,8 +16,6 @@
 </template>
 
 <script setup>
-import { defineProps } from "vue";
-
 defineProps({
   title: {
     type: String,
